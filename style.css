@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p,
+  form, input, div {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+	background: linear-gradient(90deg, #ffff, #C7C5F4);		
+}
+
+
+
+.container {
+	
+		width: 1170px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+
+}
+
+
+
+/* CSS Beranda */
+.logo {
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: #776BCC;
+    display: inline-block;
+    padding: 20px 0;
+    margin: 20px 0 30px;
+    border-top: 5px ;
+    border-bottom: 5px solid #776BCC;
+  }
+.container h2 {
+	font-size: 28px;
+  color: #776bcc;
+}
+.container h3 {
+	font-size: 20px;
+    color: #776BCC;
+}
+.beranda-wrapper {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .beranda-item-judul {
+    line-height: 1.7;
+    font-size: 30px;
+    margin-top: 15px;
+    color: #eff3f3;
+  }
+  .beranda-items {
+    margin-bottom: 60px;
+  }
+  
+  .beranda-item {
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .beranda-item-gambar {
+    border-radius: 10px;
+  }
+  input[type="checkbox" i] {
+    background-color: initial;
+    cursor: pointer;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+  
+  input[type="submit"] {
+    display: inline-block;
+    width: 101px;
+    height: 48px;
+    line-height: 10px;
+    padding: 78px 20px;
+    border-radius: 30px;
+    border-style: none;
+    color: #fff;
+    background-color: #776BCC;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 55px;
+    padding: 21px 28px;
+    border-radius: 26px;
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-items: center;
+    width: 15%;
+    box-shadow: 0px 2px 2px #ada6ec;
+    cursor: pointer;
+    transition: .2s;
+
+
+
+  }
+
+  .user-input {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    width: 35%;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: text;
+    border: none;
+    border-bottom: 2px solid #D1D1D4;
+    background: none;
+    padding: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+    
+  }
+  /*CSS Konfir */
+  .container-konfir {
+    text-align: center;
+    background: linear-gradient(180deg,#F8F8F8,#b9b6da, #F8F8F8 ) ;
+    line-height: 2;
+    letter-spacing: 0.1em;
+    width: 900px;
+    height: auto;
+    margin: 60px auto;
+    padding: 20px 0px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px #CCD7D4;
+  }
+  .container-konfir h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    color: #776BCC;
+    display: inline-block;
+    padding: 4px 0;
+    margin: 10px 0 10px;
+    border-top: 5px ;
+    border-bottom: 5px solid #776BCC;
+
+  }
+  .card-header {
+    font-size: 27px;
+    margin: 20px 0;
+    color: #4C489D;
+
+  }
+  .card-header h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #1b2d8b;
+  }
+  .card-body {
+      display: inline-block;
+      font-size: 25px;
+      text-align: left;
+      font-weight: 700;
+  }
+  .selesai {
+    align-content: center;
+  }
+
+  /*CSS Detail */
+  .container-detail {
+    font-weight: 700;
+    margin: 30px auto 10px auto;
+    width: 800px;
+    height: auto;
+    padding: 20px 100px;
+    text-align: justify;
+    background: linear-gradient(180deg,#F8F8F8,#b9b6da, #F8F8F8 ) ;
+    line-height: 2;
+    letter-spacing: 0.1em;
+    align-items: center;
+  }
+  .container-detail h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #1b2d8b;
+  }
+  .back {
+    font-weight: 700;
+    margin: 30px 585px 10px 585px;
+    letter-spacing: 0.1em;
+    text-align: justify;
+  }
+
