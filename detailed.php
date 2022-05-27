@@ -1,4 +1,8 @@
-
+<?php if( !isset($_GET["infokoleksi"]) ) {
+    //redirect ke
+    header("Location: beranda.php");
+    exit;
+} ?>
 <!DOCTYPE html>
 <html>
     <head>
