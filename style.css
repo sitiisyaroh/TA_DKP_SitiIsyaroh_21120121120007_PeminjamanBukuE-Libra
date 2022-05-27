@@ -48,7 +48,7 @@ body {
   color: #776bcc;
 }
 .container h3 {
-	font-size: 20px;
+	font-size: 30px;
     color: #776BCC;
 }
 .beranda-wrapper {
@@ -56,10 +56,8 @@ body {
     text-align: center;
   }
   .beranda-item-judul {
-    line-height: 1.7;
-    font-size: 30px;
+    line-height: 2;
     margin-top: 15px;
-    color: #eff3f3;
   }
   .beranda-items {
     margin-bottom: 60px;
